@@ -412,11 +412,12 @@ header {
 
 .customers-link:is(:hover, :focus) {
   border-color: var(--pressed-state-color);
+  color: var(--pressed-state-color);
 }
 
-.customers-link:is(:hover, :focus) .customers-icon {
+/* .customers-link:is(:hover, :focus) .customers-icon {
   fill: var(--pressed-state-color);
-}
+} */
 
 /* footer */
 
